@@ -1,0 +1,61 @@
+name: flutter_bloc_template
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <=3.0.0"
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  shared_preferences: ^2.0.15
+  copy_with_extension: ^4.0.3
+  freezed: ^2.1.0+1
+  intl: any
+  copy_with_extension_gen: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #Data
+  equatable: ^2.0.3
+  #Auth
+  google_sign_in: ^5.4.0
+  firebase_core: ^1.20.0
+  firebase_auth: ^3.6.1
+  #Bloc
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.6
+  build_runner: ^2.2.0
+  retrofit_generator: ^4.0.3
+  json_serializable: ^6.3.1
+  #UI
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.3.2
+  iconsax: ^0.0.8
+  cached_network_image: ^3.2.1
+  masonry_grid: ^1.0.0
+  persistent_bottom_nav_bar_v2: ^4.2.4
+  drag_and_drop_lists: ^0.3.3
+  #Util
+  url_launcher: ^6.0.20
+  image_picker: ^0.8.5+3
+  geocoding: ^2.0.4
+  geolocator: ^9.0.1
+  flutter_map: ^0.14.0 #0.14.0
+
+
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  assets:
+    - assets/
